@@ -1,0 +1,257 @@
+@font-face{font-family: roboto;
+src: url(fonts/Roboto-Regular.ttf);}
+
+*{margin: 0; padding: 0; box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;}
+
+
+.main_div{width: 100%; }
+
+.container{margin: 0 100px !important;}
+
+a{text-decoration: none;}
+
+li{list-style: none;}
+.header{width: 100%; height: 55px; background-color: black; position: fixed;
+top: 0; left: 0; }
+
+.nav_bar{ display: flex;}
+
+.header_logo{width: 150px;  margin-top: 3px;}
+
+.nav_items{width: 100%; text-align: right; padding: 15px 15px;}
+
+.nav_bar ul{font-size: 14px;}
+
+.nav_bar ul li{list-style: none;display: inline; padding: 15px 15px;}
+
+.nav_bar ul li a{text-decoration: none; color: rgb(170, 170, 170);  }
+.nav_bar ul li a:hover{color: rgb(240, 15, 15);  }
+.nav_bar ul li a:focus{color:white;}
+
+.order{background-color:rgb(240, 15, 15) ;color: white !important;padding: 8px;
+border-radius: 5px;  font-weight: bold;}
+
+.slider{margin-top: 55px; width: 100%;}
+
+.welcome_div{
+    width: 100%;
+    background-color: white;
+margin-top: -4px;
+}
+
+.welcome_note{
+    text-align: center;
+    padding: 29px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+.welcome_note h1{
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 40px;
+    
+}
+.welcome_note p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.signup_btn{
+text-align: center;
+margin-left: auto !important;
+margin-right: auto !important;
+width: 100%;
+margin-top: 20px;}
+
+.signup_btn a{background-color: black;font-size: 16px;
+padding: 8px 20px; margin-top: 20px; color: white; border-radius: 5px;}
+
+.bgimg{
+    width: 100%;
+    
+    background: url(images/backimg.png) no-repeat;
+    background-attachment: fixed;
+    
+    background-position: center;
+ 
+background-size: 80%;
+}
+
+.brands_div{
+    background-color: rgba(0, 0, 0,0.93);
+    padding: 50px 0;
+}
+
+.brands{
+
+
+}
+
+
+.our_brands{
+text-align: center;
+padding-bottom: 50px;
+
+}
+
+
+
+
+
+.our_brands h2{color: white;
+font-size: 36px;
+font-weight: 500;
+
+}
+.brands_detail{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+.brands_detail ul li{
+list-style: none;
+line-height: 20px;
+font-size: 14px;
+font-weight: 550;
+}
+
+.brands_detail ul li img{
+    background-color: white;
+    padding: 25px;
+    width: 260px;
+    height: 150px;
+}
+.brands_detail ul li span{
+    background-color:rgb(240, 15, 15) ;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+
+.brands_detail ul li a{
+    color: white;
+}
+
+.brands_detail ul li a:hover{
+    color:rgb(240, 15, 15) ;
+}
+
+.our_franchise{
+    text-align: center;
+padding: 50px;
+
+
+}
+
+.our_franchise h2{
+    color: white;
+font-size: 36px;
+font-weight: 500;
+}
+
+.para{
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.adresses{
+    width: 100%;
+   
+   
+}
+.adresses p{padding: 0 20px 20px 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;}
+.adres1{
+    background-color: white;
+    width: 22%;
+    
+    display: inline-block;
+}
+
+.adres{
+    background-color: white;
+    width: 22%;
+   
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.circle{
+    background-color:rgb(240, 15, 15) ;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin: 20px auto;
+}
+
+.circle img{
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+
+.main_information{
+    width: 100%;
+    background-color: rgba(0, 0, 0,.9);
+    padding: 10px 0;
+}
+.contact_information{
+   
+    /* background-color: rgba(0, 0, 0,.5); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    width: 20%;
+    /* text-align: center; */
+    line-height: 20px;
+    font-size: 12px;
+    color: white;
+    
+  
+    font-weight: 600;
+}
+
+.contact h1{
+    padding: 20px 0;
+}
+
+.app_icons{
+   display: flex;
+    width: 130px;
+}
+.app_icons img{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+
+.contact ul li a{
+color: white;
+}
+
+.footer{width: 100%;
+height: 30px;
+background-color: black;
+padding: 0 20px;}
+
+.footer div{
+    width: 33.1%;
+    display: inline-block;
+   
+}
+
+.footer div p{margin-top: 5px; color: white; font-size: 14px;}
+.align_right{text-align: right; }
+.align_center{text-align:center;}
